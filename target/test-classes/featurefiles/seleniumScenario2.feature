@@ -1,8 +1,8 @@
-Feature: Title of your feature
-  I want to use this template for my feature file
+Feature: Title of your features
+  I want to use this template for my feature files
 
   
-  Scenario: Title of your scenario
+  Scenario: Title of your scenarios
     Given I want to write a step with precondition
     And some other precondition
     When I complete action
@@ -11,10 +11,10 @@ Feature: Title of your feature
     Then I validate the outcomes
     And check more outcomes
 
-  Scenario Outline: Title of your scenario outline
+  Scenario Outline: Title of your scenario outlines
     Given I want to write a step with <name>
-    When I check for the <value> in step
-    Then I verify the <status> in step
+    When I check for the <value> in steps
+    Then I verify the <status> in steps
 
     Examples: 
       | name  | value | status  |
