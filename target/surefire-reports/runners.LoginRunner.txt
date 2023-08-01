@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: runners.LoginRunner
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 19.86 s <<< FAILURE! -- in runners.LoginRunner
+Login Function.verify login with valid username and password -- Time elapsed: 16.96 s <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.fail(Assert.java:96)
+	at stepfiles.LoginSteps.user_should_be_on_home_page(LoginSteps.java:46)
+	at ✽.user should be on home page(file:///C:/Users/rs66360/Music/newworkspace/seleniumproject/src/test/resources/featurfiles/LoginFile.feature:8)
+
