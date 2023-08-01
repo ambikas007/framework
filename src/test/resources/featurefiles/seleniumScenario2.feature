@@ -1,7 +1,4 @@
 Feature: Title of your features
-  I want to use this template for my feature files
-
-  
 
   Scenario: Title of your scenarios
     Given I want to write a step with precondition
